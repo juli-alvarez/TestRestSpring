@@ -36,10 +36,10 @@ public class UserManagerTest {
     @Test
     public void test1() {
         log.info("starting test1 ...");
-        Assert.notNull(new Object());
+        Assert.notNull(null);
     }
     
-    @Test
+    @Test 
     public void test2() {
         log.info("starting test2 ...");
         Assert.isTrue(Boolean.TRUE);
