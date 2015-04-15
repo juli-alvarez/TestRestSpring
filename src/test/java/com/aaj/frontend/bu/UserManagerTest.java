@@ -38,6 +38,7 @@ public class UserManagerTest {
         log.info("starting test1 ...");
         //Assert.notNull(null);
         Assert.isTrue(Boolean.TRUE);
+        Assert.isFalse(Boolean.FALSE);
     }
     
     @Test 
